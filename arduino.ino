@@ -56,7 +56,7 @@ void loop() {
      base.write(base_angle += 20);
     }
 
-    if (command == "forward" || command == "قدام" ) {
+    if (command == "forward" || command == "امام" ) {
       shoulder.write(shoulder_angle -= 20);
     }
 
